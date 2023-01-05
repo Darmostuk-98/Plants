@@ -1,0 +1,145 @@
+.footer {
+  background-image: url(images/footer_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #212529;
+}
+.container {
+}
+.footer-section1 {
+}
+.footer-body {
+  padding-top: 97px;
+}
+.footer-row {
+  display: flex;
+  padding: 0 -10px;
+}
+.footer-column {
+  width: 400px;
+}
+.footer-column_about {
+}
+.footer-column_title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #212529;
+  margin-bottom: 80px;
+}
+.footer-column_text {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #676767;
+}
+.footer-column_links img {
+  margin-right: 30px;
+}
+.footer-column_links {
+  padding-bottom: 30px;
+}
+.type_connect-location,
+.type_connect-phone-call,
+.type_connect-email {
+  position: relative;
+  padding-left: 80px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.type_connect-location::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(icons/Location.png);
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.type_connect-phone-call::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(icons/phone-call.png);
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.type_connect-email::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(icons/Email.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer-column_links {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  padding-right: 0;
+}
+.column_link {
+  position: relative;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.column_link a {
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #676767;
+}
+.column_link::before {
+  content: "";
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  background-image: url(icons/arrow-right.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+.footer-column_contact {
+}
+.type_connect {
+}
+.column_link {
+}
+.footer-column_email {
+  max-width: 400px;
+}
+.footer-column_input {
+}
+.input-btn {
+}
+.footer-section2 {
+}
+.footer-section2_body {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.footer-section2-text {
+}
+.footer-section2-links {
+}
+.footer-section2-links a {
+  margin-left: 30px;
+
+  text-decoration: none;
+}

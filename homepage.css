@@ -1,0 +1,28 @@
+.homepage1 {
+  background-image: url(images/Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 296px;
+}
+.homepage1-body {
+  max-width: 547px;
+}
+.container {
+}
+.homepage1-title {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 79px;
+  color: #212529;
+  margin-bottom: 20px;
+}
+.homepage1-title span {
+  color: #00730c;
+}
+.homepage1-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 60px;
+  color: #676767;
+}
