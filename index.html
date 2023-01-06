@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="footer.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,7 +51,7 @@
             <div class="header-top-lang">
               <div class="dropdown">
                 <div class="drop-btn">
-                  English <img src="icons/arrow-down.svg" alt="#" />
+                  English <ion-icon name="chevron-down-outline"></ion-icon>
                 </div>
               </div>
             </div>
@@ -60,28 +64,32 @@
             <div class="logo">
               <a href="#"><img src="images/LOGO.png" alt="#" /></a>
             </div>
-            <div class="nav-bar">
+            <div class="nav-bar" id="nav-links">
               <ul>
                 <li>
-                  <a href="#">Home<img src="icons/navbar-arr.svg" alt="#" /></a>
-                </li>
-                <li class="active">
                   <a href="#"
-                    >Company <img src="icons/navbar-arr.svg" alt="#"
-                  /></a>
+                    >Home<ion-icon name="chevron-down-outline"></ion-icon
+                  ></a>
                 </li>
                 <li>
                   <a href="#"
-                    >Services <img src="icons/navbar-arr.svg" alt="#"
-                  /></a>
+                    >Company <ion-icon name="chevron-down-outline"></ion-icon
+                  ></a>
                 </li>
                 <li>
                   <a href="#"
-                    >Project <img src="icons/navbar-arr.svg" alt="#"
-                  /></a>
+                    >Services <ion-icon name="chevron-down-outline"></ion-icon
+                  ></a>
                 </li>
                 <li>
-                  <a href="#">Blog<img src="icons/navbar-arr.svg" alt="#" /></a>
+                  <a href="#"
+                    >Project <ion-icon name="chevron-down-outline"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Blog<ion-icon name="chevron-down-outline"></ion-icon
+                  ></a>
                 </li>
                 <li>
                   <a href="#">Contact</a>
@@ -89,19 +97,21 @@
               </ul>
             </div>
             <div class="nav-buttons">
-              <div class="nav-btn">
-                <img src="icons/callbtn.svg" alt="#" />
-                <p>Call us</p>
-              </div>
-              <div class="nav-burger">
-                <div class="nav-burger-btn"></div>
+              <a href="#"
+                ><div class="nav-btn">
+                  <img src="icons/callbtn.svg" alt="#" />
+                  <p>Call us</p>
+                </div></a
+              >
+              <div class="menu-btn" onclick="openMenu()">
+                <div class="menu-btn-burger"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <section class="homepage1">
+    <!-- <section class="homepage1">
       <div class="container">
         <div class="homepage1-body">
           <div class="homepage1-title">
@@ -113,8 +123,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <footer class="footer">
+    </section> -->
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-section1">
           <div class="footer-body">
@@ -201,6 +211,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <script src="burger.js"></script>
   </body>
 </html>
