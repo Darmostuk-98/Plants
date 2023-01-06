@@ -99,6 +99,7 @@
 }
 
 .nav-burger {
+  position: relative;
 }
 .nav-burger-btn {
 }
@@ -122,7 +123,4 @@
   .nav-btn img {
     margin-right: 0;
   }
-}
-
-@media (max-width: 1100px) {
 }
