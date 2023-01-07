@@ -52,7 +52,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.logo {
+.logo img {
+  width: 120px;
+  height: 55px;
 }
 .nav-bar {
   padding-right: 100px;
