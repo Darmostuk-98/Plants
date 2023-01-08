@@ -1,28 +1,88 @@
-.homepage1 {
-  background-image: url(images/Bg.png);
+.homepage-02-title {
+  background-image: url(images/bg-homepage_02.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 296px;
-}
-.homepage1-body {
-  max-width: 547px;
+  position: relative;
 }
 .container {
 }
-.homepage1-title {
+.homepage-02-body {
+  padding-top: 133px;
+  max-width: 556px;
+}
+.homepage-02-title-logo {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #212529;
+  margin-bottom: 20px;
+}
+.homepage-02-title-title {
   font-weight: 800;
   font-size: 58px;
   line-height: 79px;
   color: #212529;
   margin-bottom: 20px;
 }
-.homepage1-title span {
+.homepage-02-title-title span {
   color: #00730c;
 }
-.homepage1-description {
+.homepage-02-title-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  padding-bottom: 60px;
   color: #676767;
+  margin-bottom: 58px;
+}
+.homepage-02-title-btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 58px;
+}
+.title-btn-btn {
+  margin-right: 30px;
+  padding: 13px 35px;
+  background-color: #00730c;
+  border-radius: 5px;
+  color: #fff;
+}
+.homepage-02-title-btn a {
+  display: flex;
+  align-items: center;
+}
+.homepage-02-title-btn img {
+  margin-left: 10px;
+}
+.homepage-02-title-progress {
+  display: flex;
+  padding-bottom: 100px;
+}
+.title-progress-item {
+  display: flex;
+  max-width: 150px;
+  align-items: center;
+}
+.title-progress-bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 0px 9px;
+  background: linear-gradient(72.71deg, #00730c -83.5%, #f9f9f9 93.84%);
+  border-radius: 35px;
+}
+.title-progress-text {
+}
+.small-image {
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+}
+.big-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
